@@ -15,13 +15,17 @@ The include folder has the required header files to read the map, create an abst
 You can also use `experiment.sh` which has examples with `run.py` and `moving_ai_bench.py` which run for a set number of times or on a batch file respectively for benchmarking. The moving ai maps and batch files are from: https://movingai.com/benchmarks/grids.html
 
 The map files have the top two lines designating the dimensions of the maps occupancy grid. The next two lines are the dimensions of the abstraction, which can be the same or a smaller multiple of each. For example the map orz100d.map could be:
-        395
-        412
-        395
-        412
-for a full resolution abstraction or:
-        395
-        412
-        79
-        103
-for a course abstraction. The rest of the map file contains which cells are blocked.
+
+    395
+    412
+    395
+    412
+    ....
+ for a full resolution abstraction or:
+ 
+    395
+    412
+    79
+    103
+    ......
+ for a course abstraction. The rest of the map file contains which cells are blocked.
