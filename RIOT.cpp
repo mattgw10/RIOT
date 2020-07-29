@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 	chrono::steady_clock::time_point begin = chrono::steady_clock::now();
 	
 	/* Arguments
-		-m [map] -v [vehicle] -t [time] -o [outfile prefix]  -s [start grid cell] -g [goal grid cell]
+		-m [map] -v [vehicle] -t [time]  -s [start grid cell] -g [goal grid cell]
 	*/
 	ifstream infile;
 	string vehicle_name;
