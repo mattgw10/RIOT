@@ -1,0 +1,1 @@
+g++ RIOT.cpp -O3 -o RIOT -Iann/include -Lann/lib -lANN
