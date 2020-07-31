@@ -10,9 +10,7 @@
 #include"include/generic_3D_dynamic.h"
 
 /* Constants:
-	dim = dimensions of workspace
 	bn = number of controls to blossum
-	eps = ANN error bound
 	GOAL_RADIUS = distance vertex can be from goal and count as reaching it*/
 const int bn = 20;
 const double GOAL_RADIUS = 1;
